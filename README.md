@@ -1,1 +1,0 @@
-# trokut_art

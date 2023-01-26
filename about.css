@@ -1,0 +1,116 @@
+body {
+	overflow: hidden;
+	background-color: #030303;
+	 background-image:url('C:/Users/tr0kut/Desktop/fax/web dizajn/MOJ SAJT 2/materijali/bckg.gif');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: right, bottom;
+}
+
+
+#text {
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+.title-text {
+  color: whitesmoke;
+}
+
+.title-text span {
+  display: inline-block;
+  transition: transform 1s;
+}
+
+.title-text span:hover {
+  transform: scale(1.1);
+}
+
+
+h1 {
+	display: flex;
+	text-align: center;
+	font-family:ELEGANT TYPEWRITER , sans-serif;
+	color: whitesmoke;
+	font-size: 100px;
+	margin: 0px;
+	margin-left: 10px;
+	
+}
+
+h1 a {
+	font-size: 100px;
+}
+
+h1 a:hover {
+	color: whitesmoke;
+}
+
+
+a {
+         	color: whitesmoke;
+         	font-family: ELEGANT TYPEWRITER, sans-serif;
+         	font-size: 30;
+         	text-decoration: none;
+         }
+
+         a:hover {
+         	color: #1ab8a8;
+         }
+
+
+
+ p {
+  color: whitesmoke;
+    font-family: ELEGANT TYPEWRITER, sans-serif;
+    font-size: 30;
+
+}
+
+
+#text {
+	position: ;
+}
+
+#meni {
+	margin-left: 20px;
+}
+
+#text2 {
+	margin-top: 100px;
+	margin-left: 20px;
+
+}
+
+
+
+
+
+
+/* click "art" button */
+
+#text3 {
+
+	background-color: whitesmoke;
+	width: 500px;
+	margin-left: 20px;
+}
+
+#text3 p {
+	color: #030303;
+}
+
+#text3 a {
+	color:  #030303;
+         	font-family: ELEGANT TYPEWRITER, sans-serif;
+         	font-size: 30;
+         	text-decoration: none;
+}
+
+#text3 a:hover {
+	 color: #1ab8a8 ;
+}

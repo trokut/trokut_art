@@ -1,10 +1,10 @@
 body {
 	overflow: hidden;
 	background-color: #030303;
-	 background-image:url('/bckg.gif');
+	 background-image:url("./bckg.gif");
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size: 60%;
+    background-size: 130vh;
     background-position: right, bottom;
 }
 

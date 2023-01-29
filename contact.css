@@ -1,0 +1,234 @@
+body {
+	overflow: hidden;
+	background-color: #030303;
+	 background-image:url('C:/Users/tr0kut/Desktop/fax/web dizajn/MOJ SAJT 2/materijali/bckg.gif');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 130vh;
+    background-position: right, bottom;
+}
+
+
+
+#text {
+	display: flex;
+	justify-content: center;
+}
+
+/* trokut_art animacija */
+.title-text {
+  color: whitesmoke;
+}
+
+.title-text span {
+  display: inline-block;
+  transition: transform 1s;
+}
+
+.title-text span:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+h1 {
+	display: flex;
+	text-align: center;
+	font-family:ELEGANT TYPEWRITER , sans-serif;
+	color: whitesmoke;
+	font-size: 100px;
+	margin: 0px;
+	margin-left: 10px;
+	
+}
+
+h1 a {
+	font-size: 100px;
+}
+
+h1 a:hover {
+	color: whitesmoke;
+}
+
+
+
+a {
+         	color: whitesmoke;
+         	font-family: ELEGANT TYPEWRITER, sans-serif;
+         	font-size: 30;
+         	text-decoration: none;
+         }
+
+         a:hover {
+         	color: #1ab8a8;
+         }
+
+
+
+ p {
+  color: whitesmoke;
+    font-family: ELEGANT TYPEWRITER, sans-serif;
+    font-size: 30;
+
+}
+
+
+#text {
+	position: ;
+}
+
+#meni {
+	margin-left: 20px;
+}
+
+#info {
+	text-align: left;
+	margin-top:100px ;
+	margin-left: 20px;
+	
+}
+
+class.txt2 {
+	font-size: 50px;
+}
+
+
+
+
+#info p {
+  border-right: .15em solid whitesmoke;
+  font-family: ELEGANT TYPEWRITER, sans-serif;
+  font-size: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0px;
+}
+  #info p:nth-child(1) {
+  width: 15.5em;
+  -webkit-animation: type 2s steps(30, end);
+  animation: type 2s steps(30, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+  #info p:nth-child(2) {
+  width: 6.5em;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(15, end);
+  animation: type2 2s steps(15, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+	#info p:nth-child(3) {
+  width: 6em;
+  opacity: 0;
+  -webkit-animation: type3 2s steps(15, end), blink .5s step-end infinite alternate;
+  animation: type3 2s steps(15, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid whitesmoke;
+  }
+  100% {
+    border: none;
+  }
+}
+
+-webkit-@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid whitesmoke;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid whitesmoke;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+ webkit-@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid whitesmoke;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid whitesmoke;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+ webkit-@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid whitesmoke;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+ webkit-@keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}

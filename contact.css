@@ -112,16 +112,7 @@ class.txt2 {
   animation-fill-mode: forwards;
 }
 
-  #info p:nth-child(2) {
-  width: 6.5em;
-  opacity: 0;
-  -webkit-animation: type2 2s steps(15, end);
-  animation: type2 2s steps(15, end);
-  -webkit-animation-delay: 2s;
-  animation-delay: 2s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
+ 
 
 	#info p:nth-child(3) {
   width: 6em;
@@ -158,37 +149,7 @@ class.txt2 {
   }
 }
 
-@keyframes type2 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  99.9% {
-    border-right: .15em solid whitesmoke;
-  }
-  100% {
-    opacity: 1;
-    border: none;
-  }
-}
 
- webkit-@keyframes type2 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  99.9% {
-    border-right: .15em solid whitesmoke;
-  }
-  100% {
-    opacity: 1;
-    border: none;
-  }
-}
 
 @keyframes type3 {
   0% {

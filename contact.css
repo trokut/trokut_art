@@ -96,6 +96,7 @@ class.txt2 {
 
 
 
+
 #info p {
   border-right: .15em solid whitesmoke;
   font-family: ELEGANT TYPEWRITER, sans-serif;
@@ -112,13 +113,22 @@ class.txt2 {
   animation-fill-mode: forwards;
 }
 
- 
+  #info p:nth-child(2) {
+  width: 6.5em;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(15, end);
+  animation: type2 2s steps(15, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
 
-	#info p:nth-child(2) {
+	#info p:nth-child(3) {
   width: 6em;
   opacity: 0;
-  -webkit-animation: type2 2s steps(15, end), blink .5s step-end infinite alternate;
-  animation: type2 2s steps(15, end), blink .5s step-end infinite alternate;
+  -webkit-animation: type3 2s steps(15, end), blink .5s step-end infinite alternate;
+  animation: type3 2s steps(15, end), blink .5s step-end infinite alternate;
   -webkit-animation-delay: 4s;
   animation-delay: 4s;
   -webkit-animation-fill-mode: forwards;
@@ -149,8 +159,6 @@ class.txt2 {
   }
 }
 
-
-
 @keyframes type2 {
   0% {
     width: 0;
@@ -168,6 +176,38 @@ class.txt2 {
 }
 
  webkit-@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid whitesmoke;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid whitesmoke;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+ webkit-@keyframes type3 {
   0% {
     width: 0;
   }

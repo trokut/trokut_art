@@ -117,8 +117,8 @@ class.txt2 {
 	#info p:nth-child(2) {
   width: 6em;
   opacity: 0;
-  -webkit-animation: type3 2s steps(15, end), blink .5s step-end infinite alternate;
-  animation: type3 2s steps(15, end), blink .5s step-end infinite alternate;
+  -webkit-animation: type2 2s steps(15, end), blink .5s step-end infinite alternate;
+  animation: type2 2s steps(15, end), blink .5s step-end infinite alternate;
   -webkit-animation-delay: 4s;
   animation-delay: 4s;
   -webkit-animation-fill-mode: forwards;

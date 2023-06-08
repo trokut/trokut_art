@@ -114,7 +114,7 @@ class.txt2 {
 
  
 
-	#info p:nth-child(3) {
+	#info p:nth-child(2) {
   width: 6em;
   opacity: 0;
   -webkit-animation: type3 2s steps(15, end), blink .5s step-end infinite alternate;
@@ -151,7 +151,7 @@ class.txt2 {
 
 
 
-@keyframes type3 {
+@keyframes type2 {
   0% {
     width: 0;
   }
@@ -167,7 +167,7 @@ class.txt2 {
   }
 }
 
- webkit-@keyframes type3 {
+ webkit-@keyframes type2 {
   0% {
     width: 0;
   }
